@@ -1,10 +1,9 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
-  - jemoji
 
 permalink: /:year/:month/:day/:title/
 
@@ -16,6 +15,17 @@ defaults:
     values:
       layout: "post"
 
+topics:
+  - name: Django
+    image_url: https://cdn.iconscout.com/icon/free/png-256/django-13-1175187.png
+    
+   - name: Node-JS
+    image_url: https://pluralsight.imgix.net/paths/path-icons/nodejs-601628d09d.png
+    
+  - name: Blockchain
+    image_url: https://image.flaticon.com/icons/svg/824/824918.svg
+
+  
 projects:
   sort_by: pushed
   # sort_by options:
@@ -23,36 +33,16 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
+  facebook: hrishabh.sharma.33
+  linkedin: hrishabh-sharma-122338163/
+  medium: hrishabh01sharma
+  twitter: Hrishab46986230
   # youtube: your_username
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
