@@ -19,7 +19,7 @@ topics:
   - name: Django
     image_url: https://cdn.iconscout.com/icon/free/png-256/django-13-1175187.png
     
-   - name: Node-JS
+  - name: Node-JS
     image_url: https://pluralsight.imgix.net/paths/path-icons/nodejs-601628d09d.png
     
   - name: Blockchain
